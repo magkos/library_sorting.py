@@ -3,6 +3,7 @@ import sys
 import json
 import bisect
 
+
 class SparseTable:
     def __init__(self, n_list, m_list, k, x):
         self.n_list = n_list
